@@ -1,6 +1,6 @@
 //Fast Api 
-//Cambiar a la del servidor 
-const SERVIDOR_URL = "http://127.0.0.1:8000/api"; 
+//Cambiar a la del servidor  y se agrega URL de render + direccion donde pide la api 
+const SERVIDOR_URL = "https://fibra-optica-ml.onrender.com/api"; 
 let radarActivo = false;
 let entidadesNodosMap = [];
 let lineaEnlaceFibra = null;
