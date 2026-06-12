@@ -52,3 +52,53 @@ Al ejecutar el script de entrenamiento independiente en la terminal de Visual St
            1       0.55      0.37      0.44       216
 
     accuracy                           0.76       833
+
+## 6. Despligue del modelo (Avance 3)
+En este proceso se agrego se desplego el modelo y creacion del interfa.
+
+### Arquitectura de despliegue del *modelo de fibra optica*
+*1* Se inplemento una API (FastAPI app.py )para que se conecte con la interfasz del frontend.
+*2* Se desarrollo el Frontend :
+      -Html para organizar la interfaze
+      -css se utilizo la darle estilo y diseño  
+      -JavaScrip -para darle interactividar
+                 -agregar el metodo de busqueda
+                 -Mortarlos sisrecargar la pantalla de forma dinamica
+                 -Comunicarse con el servidor
+*3*Se dokerizo🐳 para desplegarlo todo el backend y modelo
+*4*Despliege o deploy:
+       1-Se desplego el Modelos y banckend en un servidor en la nube(Render)
+       2-Se Desplego la interfaze en Vercel y Github page
+
+
+
+###Visualizacion
+Se Inplemento un formato de busqueda que permite a los usuarios un encontrar localidades  especificas en el mapa de forma rapida y sensilla 
+agrego un punto de del usuairo donde puedea agregar la distancia mas sercana al nodo de fibra optica mas sercana 
+
+link--https://braian004.github.io/FIBRA.OPTICA-ML-frontend/
+## 6. Despliegue del Modelo (Avance 3)
+
+En esta etapa se realizó el despliegue del modelo predictivo y la integración con la interfaz de usuario.
+
+### Arquitectura de Despliegue del Modelo de Fibra Óptica
+
+1. **Capa de API (Backend):** Se implementó una API REST con **FastAPI** (`app.py`) para conectar la lógica del modelo con la interfaz del usuario.
+2. **Capa de Presentación (Frontend):** Se desarrolló una interfaz web desacoplada utilizando tecnologías nativas:
+   - **HTML5:** Estructuración y organización de la interfaz gráfica.
+   - **CSS3:** Diseño responsivo, estilos visuales y maquetación.
+   - **JavaScript (ES6):** Gestión de interactividad, consumo asíncrono de la API mediante peticiones HTTP (sin recargar la página) y renderizado dinámico de mapas.
+3. **Contenedorización:** Se utilizó **Docker** 🐳 para empaquetar de forma aislada el entorno de Python, las dependencias (`requirements.txt`) y el backend.
+4. **Estrategia de Deploy:**
+   - **Backend & Modelos:** Desplegados de forma continua en **Render**, ejecutando el servidor FastAPI dentro del contenedor Docker.
+   - **Frontend:** Alojado de manera estática y con alta velocidad de carga en **Vercel** / **GitHub Pages**.
+
+---
+
+### Visualización y Funcionalidades Básicas
+
+* **Búsqueda Avanzada:** Se implementó un motor de búsqueda geográfico que permite localizar áreas específicas en el mapa de forma rápida y sencilla.
+* **Análisis de Cercanía:** El sistema detecta la ubicación seleccionada por el usuario y calcula la distancia en tiempo real hacia el nodo de fibra óptica más cercano, mostrando el porcentaje de viabilidad.
+
+🔗 **Link del Proyecto:** [FIBRA.OPTICA-ML-frontend](https://braian004.github.io/FIBRA.OPTICA-ML-frontend/)
+
