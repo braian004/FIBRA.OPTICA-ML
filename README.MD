@@ -52,8 +52,8 @@ Al ejecutar el script de entrenamiento independiente en la terminal de Visual St
            1       0.55      0.37      0.44       216
 
     accuracy                           0.76       833
-'''
----
+```
+
 ## 6. Despliegue del modelo (Avance 3)
 En este proceso se agregó, se desplegó el modelo y la creación de la interfaz.
 
@@ -77,5 +77,6 @@ Se implementó un formato de búsqueda que permite a los usuarios encontrar loca
 Se agregó un punto del usuario donde pueda agregar la distancia más cercana al nodo de fibra óptica más cercano.
 
 link--https://braian004.github.io/FIBRA.OPTICA-ML-frontend/
+
 
 
