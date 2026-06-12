@@ -52,12 +52,14 @@ Al ejecutar el script de entrenamiento independiente en la terminal de Visual St
            1       0.55      0.37      0.44       216
 
     accuracy                           0.76       833
-
+'''
 ---
 ## 6. Despliegue del modelo (Avance 3)
 En este proceso se agregó, se desplegó el modelo y la creación de la interfaz.
 
 ### Arquitectura de despliegue del *modelo de fibra óptica*
+
+![Arquitectura del Sistema](docs/arquitectura.png)
 *1* Se implementó una API (FastAPI app.py) para que se conecte con la interfaz del frontend.
 *2* Se desarrolló el Frontend:
       - HTML para organizar la interfaz
@@ -70,7 +72,6 @@ En este proceso se agregó, se desplegó el modelo y la creación de la interfaz
 *4* Despliegue o deploy:
        1- Se desplegó el modelo y backend en un servidor en la nube (Render)
        2- Se desplegó la interfaz en Vercel y GitHub Pages
-
 ### Visualización
 Se implementó un formato de búsqueda que permite a los usuarios encontrar localidades específicas en el mapa de forma rápida y sencilla.
 Se agregó un punto del usuario donde pueda agregar la distancia más cercana al nodo de fibra óptica más cercano.
