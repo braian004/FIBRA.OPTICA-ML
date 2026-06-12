@@ -60,7 +60,7 @@ En este proceso se agregó y desplegó el modelo predictivo, junto con la creaci
 
 ### Arquitectura de despliegue del *modelo de fibra óptica*
 
-![Arquitectura del Sistema](docs/arquitectura.png)
+![Arquitectura del Sistema](arquitectura.png)
 
 * **1.** Se implementó una API (**FastAPI** en `app.py`) para gestionar las peticiones y conectar la lógica con la interfaz del Frontend.
 * **2.** Se desarrolló el **Frontend** utilizando tecnologías web nativas:
