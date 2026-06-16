@@ -54,7 +54,7 @@ Al ejecutar el script de entrenamiento independiente en la terminal de Visual St
     accuracy                           0.76       833
 ```
 
-## 6. Despliegue del modelo (Avance 3)
+## 6. Despliegue del modelo (Avance 3 y 4)
 
 En este proceso se agregó y desplegó el modelo predictivo, junto con la creación de la interfaz de usuario.
 
